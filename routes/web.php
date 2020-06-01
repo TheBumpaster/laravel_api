@@ -22,8 +22,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/docs', function() {
-    return json_encode([
-        "msg" => "Documentation",
-    ]);
-})->name("documentation");
+// TODO: Generate POSTMAN collection
+//Route::get('/docs', function() {
+//    return json_encode([
+//        "msg" => "Documentation",
+//    ]);
+//})->name("documentation");
